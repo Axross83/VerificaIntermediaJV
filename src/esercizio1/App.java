@@ -24,9 +24,12 @@ public class App {
         Garage.VeicoliInGarage.add(veicolo2);
         
        Veicolo veicolo3= new Veicolo("Aprilia", 2000, 8);
-   
+       
+       Auto veicolo4 = new Auto ("BMW", 2020, 20, 5, Auto.Alimentazione.benzina);
+       
         
        garage.aggiungiVeicolo(veicolo3);
+       garage.aggiungiVeicolo(veicolo4);
        
        garage.uscitaVeicolo(1);
                
