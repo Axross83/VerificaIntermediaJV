@@ -11,6 +11,9 @@ package esercizio2;
  */
 public class App {
      public static void main(String args[]){
+         
+   
+  Chiamata c1 = new Chiamata(1.1, "33876543");   
         
     }
 }

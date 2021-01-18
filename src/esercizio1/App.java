@@ -31,8 +31,11 @@ public class App {
        garage.aggiungiVeicolo(veicolo3);
        garage.aggiungiVeicolo(veicolo4);
        
-       garage.uscitaVeicolo(1);
-               
+       // FACCIO METODO X FAR USCIRE UN VEICOLO E LO SALVO IL USCITO
+       Veicolo uscito= garage.uscitaVeicolo(1);  
+         System.out.println("\nè uscito il veicolo\n" + uscito);
+       
+       
         garage.stampaGarage();
     }
     

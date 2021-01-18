@@ -4,19 +4,14 @@
  * and open the template in the editor.
  */
 package esercizio3;
-
+import java.util.ArrayList;
 /**
  *
  * @author AxRos
  */
-public class App {
-     public static void main(String args[]){
-      
-         
-      Officina officina = new Officina();
-      
-      
-      
-      
-    }
+public class Officina {
+    
+    static ArrayList<Macchina>MacchineInOfficina = new ArrayList<Macchina>(10);
+   
+    
 }

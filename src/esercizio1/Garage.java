@@ -18,14 +18,17 @@ public class Garage {
     VeicoliInGarage.add(veicolo);
 }
     
-    public String uscitaVeicolo(int posto){
+    public Veicolo uscitaVeicolo(int posto){
+        Veicolo veicolo= VeicoliInGarage.get(posto); // X sapere che parcheggio si libera
         VeicoliInGarage.remove(posto);
-        return VeicoliInGarage.toString();
+        return veicolo; // ritorna il posto lasciato libero
     }
     
     void stampaGarage(){
-         for (Veicolo i : VeicoliInGarage) {
-            System.out.println(i.toString());
+         for (int posto =0; posto < VeicoliInGarage.size(); posto++) {
+            System.out.println("Posto: " + posto);
+            System.out.println(VeicoliInGarage.get(posto));
+             System.out.println("-------------------------");
          }
     }
     
